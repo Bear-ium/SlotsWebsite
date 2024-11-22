@@ -1,2 +1,2 @@
-# SlotsWebsite
+# Slots Website
 School Project

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slots Machine</title>
+    <link rel="stylesheet" href="/Website/Assets/CSS/main.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">🎰 Slots Machine 🎰</h1>
+        <p class="money">Money: 💶100</p>
+    </header>
+
+    <div class="container">
+        <div class="numbers">
+            <p class="number-item" id="LeftNum">1</p>
+            <p class="number-item" id="MiddleNum">1</p>
+            <p class="number-item" id="RightNum">1</p>
+        </div>
+
+        <button class="spin-button" onclick="GenerateRandomNum()">Spin</button>
+
+        <div class="guide">
+            <button class="guide-button" onclick="ShowGuide()">Show Guide</button>
+            <div id="gtext">
+                <p class="guide-text">
+                    Simple Guide
+                <ul>
+                    <li>Press the Spin Button at above and let it generate numbers!</li>
+                    <li>It takes 💶5 per spin.</li>
+                </ul>
+                <br>
+                How do you earn Money?
+                <ul>
+                    <li>Get 3 of [1, 2, 3, 4] and earn 💶150!</li>
+                    <li>Get 3 of [5] and earn 💶1000!</li>
+                    <li>Get 3 of [♥, ♦, ♣, ♠] and earn 💶450!</li>
+                    <li>
+                        Get 3 of [Color(
+                        <span style="color: red;">Red</span>,
+                        <span style="color: green;">Green</span>,
+                        <span style="color: blue;">Blue</span>,
+                        <span style="color: yellow;">Yellow</span>
+                        )] and earn 💶200!
+                    </li>
+                    <li>Get 3 of [Color(<span style="color: pink;">Pink</span>)] and earn 💶1000!</li>
+                </ul>
+                <br>
+                Rewards are stack-able!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Check out my GitHub:
+        <a href="https://github.com/Bear-ium" target="_blank">Bear-ium</a>
+    </footer>
+
+    <script src="/Website/Assets/JS/main.js"></script>
+</body>
+
+</html>

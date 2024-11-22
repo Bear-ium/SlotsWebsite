@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../Fonts/Nunito-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../Fonts/Nunito-Black.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nunito;
+    background-color: #a00202;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: bold;
+
+    padding: 20px;
+}
+
+.money {
+    border: 2px;
+    border-style: double;
+    border-color: rgb(45, 235, 118);
+}
+
+.container {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+
+    text-align: center;
+    flex-grow: 1;
+
+    border: 2px;
+    border-style: double;
+    border-color: gold;
+
+    padding: 20px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.number-item {
+    background-color: #f33232;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 5px;
+    width: 15%;
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.spin-button {
+    width: 10%;
+    height: 50px;
+}
+
+.guide {
+    margin-top: 3%;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+
+    font-weight: bold;
+}
