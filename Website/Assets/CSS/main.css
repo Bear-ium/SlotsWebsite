@@ -39,7 +39,7 @@ header {
     border-color: rgb(45, 235, 118);
 }
 
-.container {
+.container, .settings-container {
     margin-top: 4%;
     margin-bottom: 2%;
     margin-right: 10%;
@@ -77,8 +77,8 @@ header {
 }
 
 .spin-button {
-    width: 10%;
-    height: 50px;
+    width: 25%;
+    height: auto;
 }
 
 .guide {
