@@ -1,2 +1,0 @@
-# Slots Website
-School Project
